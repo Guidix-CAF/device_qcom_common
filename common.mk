@@ -51,7 +51,7 @@ QCOM_BOARD_PLATFORMS += \
     taro
 
 # List of targets that use video hardware.
-MSM_VIDC_TARGET_LIST := \
+MSM_VIDC_TARGET_LIST ?= \
     $(MSMSTEPPE) \
     $(TRINKET) \
     atoll \
