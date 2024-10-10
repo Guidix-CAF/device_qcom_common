@@ -26,31 +26,10 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.3 \
     android.hardware.radio.deprecated@1.0 \
     android.system.net.netd@1.1 \
-    extphonelib \
-    extphonelib-product \
-    extphonelib.xml \
-    extphonelib_product.xml \
-    ims-ext-common \
-    ims_ext_common.xml \
     libjson \
     Stk \
-    tcmiface \
-    telephony-ext \
-    qti-telephony-hidl-wrapper \
-    qti-telephony-hidl-wrapper-prd \
-    qti_telephony_hidl_wrapper.xml \
-    qti_telephony_hidl_wrapper_prd.xml \
-    qti-telephony-utils \
-    qti-telephony-utils-prd \
-    qti_telephony_utils.xml \
-    qti_telephony_utils_prd.xml \
     vendor.qti.hardware.systemhelperaidl-V1-ndk \
-    libc++.product \
-    libjson
-
-PRODUCT_BOOT_JARS += \
-    tcmiface \
-    telephony-ext
+    libc++.product
 
 # Telephony - AOSP
 PRODUCT_PACKAGES += \
